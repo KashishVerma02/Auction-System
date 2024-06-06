@@ -1,0 +1,21 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand>img {
+    padding: 1px 1px;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .navbar{
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    height: 80px;
+    color: white;
+  }
+  .nav.link{
+    color: white;
+  }
+  

@@ -1,0 +1,78 @@
+.body{
+  background-color: white
+}
+
+.header-merchant {
+    position: relative;
+    text-align: center;
+    color: rgb(243, 233, 233);
+    background-color: #9F000F;
+  }
+
+  .merchant-h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  /*.merchant-img img{
+    background-image: linear-gradient(gray, gray);
+  }*/
+ 
+
+  .merchant-h2 h2{
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    background:url(../images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+  }
+
+  @keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+  }
+
+  .merchant-table{
+    width: 1200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 10px;
+    
+    
+  }
+
+  .merchant-table img{
+    border-radius: 50px;
+  }
+  .merchant-table  td {
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+
+.merchant-container{
+  background-color: #9F000F;
+}
+
+.table-container{
+  background-color: #9F000F;
+}
+.viewbtn{
+  background-color: #9F000F;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+  border-color: #9F000F;
+  height: 35px;
+  width: 200px;
+}

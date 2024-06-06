@@ -1,0 +1,15 @@
+.cardstyling
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.features{
+    border: black 2px;
+    background-color: white;
+    height: 200px;
+}
+
+.features-box{
+    background-color:#9F000F;
+}

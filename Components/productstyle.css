@@ -1,0 +1,136 @@
+.body{
+    background-color: white
+  }
+
+.header-product {
+    position: relative;
+    text-align: center;
+    color: rgb(243, 233, 233);
+    background-color: #9F000F;
+  }
+
+  .product-h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .product-h2 h2{
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    background:url(../images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+  }
+
+  @keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+  }
+  
+
+  .product-table{
+    
+    width: 1200px;
+   margin-left: -60px;
+    background-color: white;
+    
+    
+    border: 1px solid black;
+    
+  }
+  .product-table td{
+  padding: 0.5rem;
+    border: 1px solid black;
+
+  }
+  
+ .box{
+    background-color:white;
+   width: 1300px;
+  margin-left: 150px;
+   box-shadow: rgba(159, 0, 15 ) 0px 5px 15px;
+   height: 720px;
+   overflow-y: scroll;
+   
+   margin-top: 10px;
+  margin-left: -70px;
+ }
+
+ .filter button{
+  background-color:#9F000F;
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  width: 150px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+ }
+
+ .filter{
+  border-color:  #9F000F;
+  border-radius: 10%;
+  border-width: 10px;
+  
+ }
+
+.filter-pic {
+  margin-left: 90%;
+}
+ 
+.filter-pic button {
+ 
+  background-color: #9F000F;
+  width: 50%;
+  height: 70px;
+  border-width: 2px;
+  border-color: white;
+  
+  border-radius: 100%;
+}
+
+.box2{
+  background-color: #9F000F;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+ margin-left: -180px;
+  width: 200px;
+  box-shadow: rgba(159, 0, 15 ) 0px 5px 15px;
+ 
+}
+
+.box2 h6{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.box2 input[type='radio']{
+  margin-left: 10px;
+  size: 5px;
+  background-color: #9F000F;
+}
+
+.prodbtn{
+  background-color: #9F000F;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+  border-color: #9F000F;
+  height: 35px;
+  width: 200px;
+}
+
+.prodbtn:hover {background-color: white;
+  color: #9F000F;
+
+}

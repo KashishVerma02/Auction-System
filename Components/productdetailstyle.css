@@ -1,0 +1,12 @@
+.product-box{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 600px;
+}
+
+.tbl{
+    border: black 2px;
+    border-radius: 50%;
+}
+
