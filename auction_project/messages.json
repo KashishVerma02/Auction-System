@@ -1,0 +1,32 @@
+[
+    {
+        "pname": "Zaveri Ring for women",
+        "start_price": "500",
+        "Category": "Jewellery",
+        "delivery_time": "5 days",
+        "shipping": "50",
+        "sdate": "2022-09-24",
+        "edate": "2022-09-22",
+        "prodimg": "cars.jpg"
+    },
+    {
+        "pname": "Ring for women",
+        "start_price": "500",
+        "Category": "Jewellery",
+        "delivery_time": "5 days",
+        "shipping": "50",
+        "sdate": "2022-09-24",
+        "edate": "2022-09-22",
+        "prodimg": "cars.jpg"
+    },
+    {
+        "pname": "Ring for women",
+        "start_price": "500",
+        "Category": "Jewellery",
+        "delivery_time": "5 days",
+        "shipping": "50",
+        "sdate": "2022-09-24",
+        "edate": "2022-09-22",
+        "prodimg": "cars.jpg"
+    }
+]
